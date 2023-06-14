@@ -22,6 +22,7 @@ const Data = () => {
             <Projects title="E-Commerce HeadPhone" language="HTML, CSS, JavaScript, React, Firebase NextJs" image={todof} linkgithub='https://github.com/aryan7122/Todo_APP_firebase' live='' />
             <Projects title="E-Commerce HeadPhone" language="HTML, CSS, JavaScript, React" image={ecomercheadphon} linkgithub='https://github.com/aryan7122/puzzle_game_number_guess' live='https://vocal-bublanina-4054e9.netlify.app/' />
             <Projects title="E-Commerce HeadPhone" language="HTML, CSS, JavaScript, React" image={puzzlegame} linkgithub='https://github.com/aryan7122/puzzle_game_number_guess' live='https://guess-puzzle.netlify.app/' />
+            <Projects title="E-Commerce HeadPhone" language="HTML, CSS, JavaScript, React" image={aryanweb} linkgithub='https://github.com/aryan7122/portfolio/blob/master/src/img/p1.png' live='' />
             <Projects title="E-Commerce HeadPhone" language="HTML, CSS, JavaScript" image={blob} linkgithub='https://github.com/aryan7122/Blob-maker' live='https://gleaming-dieffenbachia-146130.netlify.app/' />
             <Projects title="E-Commerce HeadPhone" language="HTML, CSS, JavaScript" image={music} linkgithub='https://github.com/aryan7122/Music_Spotify-' live='https://sweet-fox-16cb64.netlify.app/' />
             <Projects title="E-Commerce HeadPhone" language="HTML, CSS, JavaScript" image={moviedemo} linkgithub='https://github.com/aryan7122/Movie-demo' live='https://statuesque-kashata-d21ea0.netlify.app/' />
@@ -32,7 +33,6 @@ const Data = () => {
             {/* <Projects title="E-Commerce HeadPhone" language="HTML, CSS, JavaScript" image={rounclock } linkgithub='https://github.com/aryan7122/round_colock' live='https://master--joyful-sprinkles-36b77b.netlify.app/' /> */}
             <Projects title="E-Commerce HeadPhone" language="HTML, CSS, JavaScript" image={crudjs} linkgithub='https://github.com/aryan7122/User-profile' live='https://stellar-beignet-0911ed.netlify.app/' />
             <Projects title="E-Commerce HeadPhone" language="HTML, CSS, JavaScript" image={Countdown} linkgithub='https://github.com/aryan7122/Countdown' live='https://bucolic-empanada-0a34c6.netlify.app/' />
-            <Projects title="E-Commerce HeadPhone" language="HTML, CSS, JavaScript" image={aryanweb} linkgithub='https://github.com/aryan7122/portfolio/blob/master/src/img/p1.png' live='' />
           
         </div>
     );
