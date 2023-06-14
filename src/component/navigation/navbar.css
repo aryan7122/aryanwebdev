@@ -1,0 +1,139 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #e3f2fd;
+}
+
+.media-icons {
+    margin-top: -0.5%;
+    margin-left: 1%;
+    margin-bottom: 0.5%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 0px;
+  border-radius: 6px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transform: translateX(-200%);
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.close-btn.open ~ .media-icons {
+  transform: translateX(0);
+}
+
+.media-icons .a {
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  margin: 6px;
+}
+
+.media-icons .a i {
+  color: #ccc;
+  font-size: 20px;
+  transition: .3s linear;
+}
+.media-icons .a i:hover {
+  color: #131313;
+}
+.media-icons .a i:active {
+  color: #cccc;
+}
+.media-icons .a .tooltip {
+  position: absolute;
+  z-index: 3;
+  font-size: 14px;
+  font-weight: 400;
+  pointer-events: none;
+  background-color: #cccccc;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transform: translateY(-25px);
+  opacity: 0;
+  transition: all 0.2s linear;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.304);
+}
+.a:hover .tooltip {
+  opacity: 1;
+  transform: translateY(-40px);
+}
+.a .tooltip::before {
+  content: "";
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  top: 100%;
+  left: 40%;
+  transform: translateY(-50%) rotate(45deg);
+  background-color: #cccccc;
+}
+.close-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  color: #cccccc;
+  font-size: 18px;
+  background-color: #3000e9;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transform: rotate(45deg);
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.close-btn:hover{
+  color: #131313;
+
+}
+.close-btn:active{
+  color: #ccc;
+
+}
+
+.close-btn.open {
+  transition: .5s linear;
+  transform: rotate(90deg);
+  background-color: #ff0000;
+}
+.close-btn.open:hover {
+  border:2px solid #ccc;
+
+}
+.close-btn:hover {
+  border:2px solid #ccc;
+
+}
+.close-btn.open:active {
+  border:2px solid #131313;
+
+}
+.close-btn:active {
+  border:2px solid #131313;
+
+}
+.a:hover {
+  border:2px solid #ccc;
+
+}
+.a{
+  transition: .1s linear;
+}
+.a:active {
+  border:2px solid #131313;
+
+}

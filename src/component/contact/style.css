@@ -1,0 +1,37 @@
+input {
+    color: black;
+    height: 50px;
+    width: 100%;
+    padding: 2%;
+    font-size: 26px;
+    outline: none;
+    background: none;
+    border: 1px solid rgb(82, 82, 82);
+    border-radius: 6px;
+}
+
+/* input:hover{
+    outline: 1px solid rgb(255, 255, 255);
+}
+input:active{
+    outline: 1px solid rgb(0, 238, 111);
+} */
+input:focus {
+    border: 1px solid #ffffff;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+    height: 250px;
+    background: none;
+    color: white;
+    padding: 2%;
+    font-size: 26px;
+    border: 1px solid rgb(82, 82, 82);
+    border-radius: 6px;
+}
+
+textarea:focus {
+    border: 1px solid #ffffff;
+}
