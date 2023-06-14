@@ -100,7 +100,7 @@ const Contact = () => {
     };
 
     return (
-        <div className="h-[100vh]   bg-[#131313]  justify-center items-center ">
+        <div className="h-fit   bg-[#131313]  justify-center items-center ">
             <h2 className="text-6xl pt-6 font-bold mb-6 text-white">Contact Me</h2>
             <div className="flex-none xl:flex">
                 <div className=" flex items-center justify-center	 ">
@@ -117,7 +117,7 @@ const Contact = () => {
                         {submitted && (
                                 <p className="text-green-300 mb-4 text-2xl ">Form submitted successfully!</p>
                         )}
-                        <div className='grid grid-cols-2 gap-5 p-10 '>
+                        <div className='grid grid-cols-1 md:grid-cols-2 gap-5 p-10 '>
 
                             <div className="mb-4">
                                 <label htmlFor="name" className="block font-medium mb-1">
@@ -199,7 +199,7 @@ const Contact = () => {
                         </div>
                         <button
                             type="submit"
-                            className="bg-blue-600 text-white py-6  px-4 rounded hover:bg-blue-600 text-5xl"
+                            className="bg-[#3000e9] text-white py-6  px-4 rounded hover:bg-blue-600 text-5xl"
                         >
                             Send Message
                         </button>
