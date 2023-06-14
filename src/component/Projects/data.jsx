@@ -1,11 +1,12 @@
 import React from 'react';
 import Projects from './projects';
-import ecomercheadphon from '../../img/project/ec.png';
+
 import puzzlegame from '../../img/project/puzzlegame.png';
-import music from '../../img/project/music.png';
-import aryanweb from '../../img/project/arynweb.png';
+import ecomercheadphon from '../../img/project/ecomercheadphon.png';
 import moviedemo from '../../img/project/moviedemo.png';
 import crudjs from '../../img/project/drud.png';
+import aryanweb from '../../img/project/arynweb.png';
+import music from '../../img/project/music.png';
 import Countdown from '../../img/project/countdown.png';
 import resto from '../../img/project/resto.png';
 import esh from '../../img/project/esh.png';
