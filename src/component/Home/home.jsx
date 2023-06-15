@@ -36,7 +36,7 @@ const Home = () => {
                     {/* <h1 className='text-white text-[3.2rem] text font-bold	 '>
                         FRONT END WEB DEVELOPER
                     </h1> */}
-                    <span className='h1 p-4 text-white  text-[2rem] sm:text-[2rem] xl:text-[5rem] lg:text-[4rem]  md:text-[3.rem]'>
+                    <span className='h1 p-4 text-white  text-[1.5rem] sm:text-[2rem] xl:text-[5rem] lg:text-[4rem]  md:text-[3.rem]'>
                         <Typewriter 
                             options={{
                                 strings: ['UI/UX Desiner', 'Web Developer'],
