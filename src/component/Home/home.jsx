@@ -48,7 +48,7 @@ const Home = () => {
                     {/* <p className='text-white text-[2.2rem] font-bold	'>
                         
                     </p> */}
-                    <p className='w-full p-4 sm:w-[99%] md:w-[95%] lg:w-[50%] xl:w-[60%] text-[1.6rem] text-slate-500 leading-relaxed  mb-4'>
+                    <p className='w-full p-4 sm:w-[99%] md:w-[95%] lg:w-[50%] xl:w-[60%] text-[1rem]md:text-[1.3re] text-slate-500 leading-relaxed  mb-4'>
                         A Young <span className='text-slate-400'>React JS</span> Developer
                         with crazy from web design. Passionate React JS Developer User Responsive Design. Let's Bring Your Vision to Life!
                     </p>
