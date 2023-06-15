@@ -11,12 +11,6 @@ input {
     border-radius: 6px;
 }
 
-/* input:hover{
-    outline: 1px solid rgb(255, 255, 255);
-}
-input:active{
-    outline: 1px solid rgb(0, 238, 111);
-} */
 input:focus {
     border: 1px solid #ffffff;
     color:rgb(255, 255, 255);

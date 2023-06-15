@@ -1,22 +1,17 @@
 .body3 {
-    background-image: url('../../img/homee//about.jpg');
+    background-image: url('../../img/homee/about.jpg');
     height: 100vh;
     z-index: 0;
     width: 100vh;
     padding: 181px;
     background-size: cover;
     background-repeat: no-repeat;
-    position:sticky;
+    /* position: sticky; */
     /* background: #00000043;    */
 }
 
-*/ */
 
-/* marginTop:'-70px',
-    fontSize:'50px',
-    backgroundSize: 'cover',
-    backgroundRepeat: 'no-repeat', */
-*/ .h1 {
+.h1 {
     color: hsl(0, 0%, 28%);
     font-size: 50px !important;
     font-weight: bold !important;
@@ -29,7 +24,7 @@
 .h1 {
     /* padding: 64px; */
     background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
     animation: shine 3s infinite linear;
 }
@@ -50,12 +45,8 @@
 
 .h1 {
     font-family: sans-serif;
-    /* font-weight: 800;
-    font-size: 40px; */
     text-align: center;
     display: flex;
-    /* justify-content: start; */
     align-items: center;
-    /* min-height: 100vh; */
-    /* background: green; */
+
 }

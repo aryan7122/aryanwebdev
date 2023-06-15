@@ -1,5 +1,4 @@
 import React from 'react'
-import './style.css'
 const Skils = () => {
   return (
     <div className='img w-[100%] h-[100vh] bg-[#131313]'>
