@@ -21,7 +21,7 @@ const Home = () => {
         <div className='  w-[100%] h-[100vh] bg-[#060606] ' >
             <div className="  z-[0] h-[100vh]  w-[100%]  ">
                 
-                <div className=' absolute  z-[2]  text-start leading-relaxed  m-4 mt-[10%] sm:mt-[35%] md:mt-[30%] lg:mt-[20%] xl:mt-[15%] ml-4 sm:ml-8 md:ml-12 lg:ml-24 xl:ml-28 2xl:ml-36' >
+                <div className=' absolute  z-[2]  text-start leading-relaxed  m-4 mt-[25%] sm:mt-[35%] md:mt-[30%] lg:mt-[20%] xl:mt-[15%] ml-4 sm:ml-8 md:ml-12 lg:ml-24 xl:ml-28 2xl:ml-36' >
                     <span class="absolute  flex h-44 w-44 z-0">
                         <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#ccc] opacity-20 "></span>
                         {/* <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span> */}
