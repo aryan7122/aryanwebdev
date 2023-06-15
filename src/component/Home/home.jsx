@@ -6,8 +6,8 @@ import Typewriter from "typewriter-effect";
 
 
 const Home = () => {
-    // let urlgit = 'https://github.com/aryan7122';
-    // let urllin = 'https://www.linkedin.com/in/aryan-kushwaha-7dec2/';
+    let urlgit = 'https://github.com/aryan7122';
+    let urllin = 'https://www.linkedin.com/in/aryan-kushwaha-7dec2/';
 
     const menuItemClickHandler = (section) => {
         // setIsOpen(false); // Close the mobile menu when a section is clicked
@@ -48,7 +48,7 @@ const Home = () => {
                     {/* <p className='text-white text-[2.2rem] font-bold	'>
                         
                     </p> */}
-                    <p className='w-full p-4 sm:w-[99%] md:w-[95%] lg:w-[50%] xl:w-[60%] text-[1rem]md:text-[1.3re] text-slate-500 leading-relaxed  mb-4'>
+                    <p className='w-full p-4 sm:w-[99%] md:w-[95%] lg:w-[50%] xl:w-[60%] text-[1rem] md:text-[1.3rem] xl:text-[1.7rem] text-slate-500 leading-relaxed  mb-4'>
                         A Young <span className='text-slate-400'>React JS</span> Developer
                         with crazy from web design. Passionate React JS Developer User Responsive Design. Let's Bring Your Vision to Life!
                     </p>
@@ -56,15 +56,15 @@ const Home = () => {
 
                     {/* <p className='text-slate-600 text-2xl pt-8 flex  justify-start'>Find Me on</p> */}
                     <span>
-                        {/* <ul className='flex  justify-start '>
-                            <li className='pr-8 text-white'>
+                        <ul className='flex  justify-start text-[2rem]'>
+                            <li className='pr-8 text-[#ccc] '>
 
                                 <a href={urlgit}><i class="fa-brands fa-square-github animate-bounce "></i></a>
                             </li>
                             <li className='text-blue-800'>
                                 <a href={urllin}><i class="fa-brands fa-linkedin animate-bounce"></i></a>
                             </li>
-                        </ul> */}
+                        </ul>
 
                         <div className=' flex justify-start p-4 ' onClick={() => menuItemClickHandler("hireme")}>
                             <span class="absolute mt-4 flex h-4 w-4  ">
