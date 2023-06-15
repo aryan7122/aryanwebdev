@@ -3,17 +3,15 @@
     height: 100vh;
     z-index: 0;
     width: 100vh;
-    padding: 181px;
+    /* padding: 181px; */
     background-size: cover;
     background-repeat: no-repeat;
-    /* position: sticky; */
-    /* background: #00000043;    */
-}
-
+    /* position:static; */
+ }
 
 .h1 {
     color: hsl(0, 0%, 28%);
-    font-size: 50px !important;
+    /* font-size: 50px !important; */
     font-weight: bold !important;
     font-family: monospace;
     letter-spacing: 4px !important;
@@ -24,7 +22,7 @@
 .h1 {
     /* padding: 64px; */
     background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
-    /* -webkit-background-clip: text; */
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: shine 3s infinite linear;
 }
@@ -45,6 +43,7 @@
 
 .h1 {
     font-family: sans-serif;
+    /* font-size: 40px;  */
     text-align: center;
     display: flex;
     align-items: center;

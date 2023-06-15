@@ -19,28 +19,27 @@ const Home = () => {
 
     return (
         <div className='  w-[100%] h-[100vh] bg-[#060606] ' >
-            <div className=" z-[0]   ">
+            <div className="  z-[0] h-[100vh] border w-[100%]  ">
                 
-                <div className=' absolute  z-[2] sm:w-[90%] md:w-[60%]   xl:w-[60%] h-fit  mt-64 text-[2rem] text-start leading-relaxed ml-24 	' >
+                <div className=' absolute  z-[2]  text-start leading-relaxed  m-4 mt-[30%] sm:mt-[35%] md:mt-[30%] lg:mt-[20%] xl:mt-[15%] ml-4 sm:ml-8 md:ml-12 lg:ml-24 xl:ml-28 2xl:ml-36' >
                     <span class="absolute  flex h-44 w-44 z-0">
                         <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#ccc] opacity-20 "></span>
                         {/* <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span> */}
                     </span>
-                    <span className='text-[#ccc] animate-ping duration-700 text-[2.5rem]'>
+                    <span className='text-[#ccc] animate-ping duration-700 text-[1.8rem] p-4'>
                         Hi
                     </span>
-                    <span className='text-[#ccc] pl-3 ext-[3rem]'>
+                    <span className='text-[#ccc] pl-3 text-[1.3rem]'>
                         There! I'm
                     </span>
 
                     {/* <h1 className='text-white text-[3.2rem] text font-bold	 '>
                         FRONT END WEB DEVELOPER
                     </h1> */}
-                    <span className='h1 text-white sm:text-[3rem] xl:text-[5.6rem] lg:text-[4rem]  md:text-[3.5rem]'>
-
-                        <Typewriter
+                    <span className='h1 p-4 text-white  text-[2rem] sm:text-[2rem] xl:text-[5rem] lg:text-[4rem]  md:text-[3.rem]'>
+                        <Typewriter 
                             options={{
-                                strings: ['UI/UX Desiner', 'React Web Developer'],
+                                strings: ['UI/UX Desiner', 'Web Developer'],
                                 autoStart: true,
                                 loop: true,
                             }}
@@ -49,7 +48,7 @@ const Home = () => {
                     {/* <p className='text-white text-[2.2rem] font-bold	'>
                         
                     </p> */}
-                    <p className='w-[70%] text-[1.6rem] text-slate-500 leading-relaxed mt-4 mb-4'>
+                    <p className='w-full p-4 sm:w-[99%] md:w-[95%] lg:w-[50%] xl:w-[60%] text-[1.6rem] text-slate-500 leading-relaxed  mb-4'>
                         A Young <span className='text-slate-400'>React JS</span> Developer
                         with crazy from web design. Passionate React JS Developer User Responsive Design. Let's Bring Your Vision to Life!
                     </p>
@@ -67,7 +66,7 @@ const Home = () => {
                             </li>
                         </ul> */}
 
-                        <div className=' flex justify-start  ' onClick={() => menuItemClickHandler("hireme")}>
+                        <div className=' flex justify-start p-4 ' onClick={() => menuItemClickHandler("hireme")}>
                             <span class="absolute mt-4 flex h-4 w-4  ">
                                 <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#ccc] opacity-60 "></span>
                                 <span class="relative inline-flex rounded-full h-4 w-4 bg-[#3000e9]"></span>
