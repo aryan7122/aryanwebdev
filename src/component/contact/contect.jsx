@@ -103,13 +103,14 @@ const Contact = () => {
         <div className="h-fit   bg-[#131313]  justify-center items-center ">
             <h2 className="text-6xl pt-6 font-bold mb-6 text-white">Contact Me</h2>
             <div className="flex-none xl:flex">
-                <div className=" flex items-center justify-center	 ">
+                {/* <div className=" flex items-center justify-center	 ">
                     <div className=" bg-[#1c1c1c]  p-6  m-12 w-[400px] shadow-lg ">
                         <p className='text-white  text-justify 	text-2xl '>
                             I am open to job opportunities, freelance work, and other collaborations. If you are interested in hiring me or exploring potential projects together, please don't hesitate to get in touch. I bring [mention your key skills/experience] to the table and have a strong commitment to delivering quality results. You can reach me at [webdeveloperaryank@gmail.com] or [+91 6394311141]. I am excited to discuss how we can work together and contribute to mutual success. Let's connect and explore the possibilities!
                         </p>
                     </div>
-                </div>
+                </div> */}
+                
                 <div className=" flex justify-end  w-full">
 
 
@@ -199,7 +200,7 @@ const Contact = () => {
                         </div>
                         <button
                             type="submit"
-                            className="bg-[#3000e9] text-white py-6  px-4 rounded hover:bg-blue-600 text-5xl"
+                            className="bg-[#3000e9] text-white py-6 mb-8  px-4 rounded hover:bg-blue-600 text-5xl"
                         >
                             Send Message
                         </button>

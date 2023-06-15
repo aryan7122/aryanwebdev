@@ -1,5 +1,5 @@
 import React from 'react';
-// import './style.css';
+import './style.css';
 
 const Projects = ({ title, language, image,linkgithub,live }) => {
   return (
@@ -19,8 +19,10 @@ const Projects = ({ title, language, image,linkgithub,live }) => {
         </span>
       </div>
       <div className='flex justify-between m-2 p-2'>
-        <a href={linkgithub}> <button className='border rounded-md w-20 hover:text-[#131313] active:text-[#ccc] active::border-[#131313]   hover:border-[#cccc] border-black bg-[#3000e9] text-[#cccccc] p-2'><i className="fa-solid fa-code"></i> </button></a>
-        <a href={live}>  <button className='border rounded-md w-20 hover:text-[#131313]  active:text-[#ccc] active::border-[#131313]  hover:border-[#cccc] border-black bg-[#3000e9] text-[#cccccc] p-2'><i className="fa-solid fa-up-right-from-square"></i></button></a>
+
+        <a href={linkgithub}> <button className='border rounded-md w-20 hover:text-[#131313] active:text-[#ccc] active::border-[#131313]   hover:border-[#cccc] border-black bg-[#3000e9] text-[#cccccc] p-2 '><i className="fa-solid fa-code animate-pulse"></i>        </button></a>
+        <a href={live}>  <button className='border rounded-md w-20 hover:text-[#131313]  active:text-[#ccc] active::border-[#131313]  hover:border-[#cccc] border-black bg-[#3000e9] text-[#cccccc] p-2'><i className="fa-solid fa-up-right-from-square animate-pulse"></i></button></a>
+        
       </div>
     </div>
 

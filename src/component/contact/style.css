@@ -3,7 +3,8 @@ input {
     height: 50px;
     width: 100%;
     padding: 2%;
-    font-size: 26px;
+    font-size: 17px;
+    color: #ccc;
     outline: none;
     background: none;
     border: 1px solid rgb(82, 82, 82);
@@ -18,6 +19,7 @@ input:active{
 } */
 input:focus {
     border: 1px solid #ffffff;
+    color:rgb(255, 255, 255);
 }
 
 textarea {
@@ -27,7 +29,7 @@ textarea {
     background: none;
     color: white;
     padding: 2%;
-    font-size: 26px;
+    font-size: 18px;
     border: 1px solid rgb(82, 82, 82);
     border-radius: 6px;
 }
