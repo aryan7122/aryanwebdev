@@ -3,11 +3,11 @@ import React from 'react';
 const Projects = ({ title, language, image,linkgithub,live }) => {
   return (
     
-    <div className=" rounded-md overflow-hidden border-black w-auto h-fit m-4 over shadow-slate-600 shadow-md">
+    <div className=" rounded-md overflow-hidden border-black w-auto  m-4 over shadow-slate-600 shadow-md">
       <div className='overflow-hidden'>
         <img src={image} alt="" className='hover:scale-110' />
       </div>
-      <div className='text-[#cccccc] font-bold text-[1.5rem] cursor-pointer'>
+      <div className='text-[#cccccc] font-bold text-[1rem] md:text-[1.3rem] lg:text-[1.5rem] cursor-pointer'>
         <p className='flex justify-start pl-4 hover:underline p-1'>
           {title}
         </p>

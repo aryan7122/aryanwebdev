@@ -3,7 +3,7 @@ import './style.css'
 // import { MDBBtn, MDBContainer } from 'mdb-react-ui-kit';
 import Typewriter from "typewriter-effect";
 // import img from '../../img/homee/imgg.png'
-
+import Resume from '../../img/AryanKushwaha.pdf'
 
 const Home = () => {
     let urlgit = 'https://github.com/aryan7122';
@@ -18,7 +18,7 @@ const Home = () => {
     };
 
     return (
-        <div className='  w-[100%] h-[100vh] bg-[#060606] ' >
+        <div className='  w-[100%] min-h-[100vh] bg-[#060606] ' >
             <div className="  z-[0] h-[100vh]  w-[100%]  ">
                 
                 <div className=' absolute  z-[2]  text-start leading-relaxed  m-4  mt-[25%] sm:mt-[35%] md:mt-[30%] lg:mt-[20%] xl:mt-[10%]  ml-4 sm:ml-8 md:ml-12 lg:ml-24 xl:ml-28 2xl:ml-36' >
@@ -66,14 +66,23 @@ const Home = () => {
                             </li>
                         </ul>
 
-                        <div className=' flex justify-start p-4 ' onClick={() => menuItemClickHandler("hireme")}>
+                        <div className='     flex justify-start p-4  '>
                             <span class="absolute mt-4 flex h-4 w-4  ">
                                 <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#ccc] opacity-60 "></span>
                                 <span class="relative inline-flex rounded-full h-4 w-4 bg-[#3000e9]"></span>
                             </span>
-                            <button className='border text-[1.2rem]  boder-[#ccc] pl-4 pr-4 pt-2 pb-2 w-42 mt-6 text-[#ccc] hover:text-[#3000e9] hover:border-[#3000e9]  '>
+                            <button onClick={() => menuItemClickHandler("hireme")}
+                                className='border text-[1.2rem]  boder-[#ccc] pl-4 pr-4 pt-2 pb-2 w-42 mt-6 text-[#ccc] hover:text-[#3000e9] hover:border-[#3000e9]  '>
                                 Hire Me!
                             </button>
+
+                            <a href={Resume} >
+                            <button 
+                                className='ml-10 border text-[1.2rem]  boder-[#ccc] pl-4 pr-4 pt-2 pb-2 w-42 mt-6 text-[#ccc] hover:text-[#3000e9] hover:border-[#3000e9]  '>
+                                <i class="fa-solid fa-download pr-2 animate-pulse"></i>
+                                Resume
+                            </button>
+                            </a>
                         </div>
                     </span>
                 </div>

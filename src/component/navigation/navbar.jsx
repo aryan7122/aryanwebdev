@@ -5,6 +5,8 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const menuItemClickHandler = (section) => {
+    // document.querySelector("#" + section).scrollIntoView({ behavior: "smooth" });
+
     setIsOpen(false); // Close the mobile menu when a section is clicked
 
     if (section === "home") {

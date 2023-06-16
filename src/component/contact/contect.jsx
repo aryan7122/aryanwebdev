@@ -100,7 +100,7 @@ const Contact = () => {
     };
 
     return (
-        <div className="h-[100vh]  bg-[#010101]  justify-center items-center ">
+        <div className="min-h-[100vh]  bg-[#060606]  justify-center items-center ">
             <h2 className="text-[2rem] pt-6 font-bold text-[#ccc]">Contact Me</h2>
             <div className="flex-none xl:flex">
                 {/* <div className=" flex items-center justify-center	 ">
@@ -111,7 +111,7 @@ const Contact = () => {
                     </div>
                 </div> */}
                 
-                <div className=" flex justify-end  w-full">
+                <div className=" flex justify-end  w-full p-0 sm:p-6 md:p-10 lg:p-16 xl:pl-32  xl:pr-32 2xl:pl-44 2xl:pr-44">
 
 
                     <form className="w-full h-fit " onSubmit={handleSubmit}>
@@ -182,7 +182,7 @@ const Contact = () => {
                             </div>
                         </div>
 
-                        <div className="mb-4 p-4 md:p-10">
+                        <div className="mb-4 pl-4 pr-4">
                             <label htmlFor="message" className="block font-medium">
                                 {/* Message */}
                             </label>
