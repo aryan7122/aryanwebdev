@@ -43,10 +43,10 @@ const About = () => {
 
             <div className=" ml-0 pl-0    md:ml-8 w-full p-7 mt-2 md:mt-6  grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 gap-4 sm:grid-cols-1 xl:grid-cols-2  md:relative sm:w-[100%]   h-[100px]  ">
               <div className=" ">
-                <h2 className='  flex text-[1rem] 2xl:text-[3rem] xl:text-[2.6rem] lg:text-[2.4rem] md:text-[2rem] sm:text-[1.5rem] '>
+                <h2 className='  flex text-[1rem]  2xl:text-[2.5rem] xl:text-[2rem] lg:text-[1.7rem] md:text-[1.4rem] sm:text-[1.1rem] '>
                   <span className="text-[#3000e9]"><i class="fa-solid fa-code"></i></span>
                   <span className="text-[#fff] pl-3 pr-4 ">Skills:</span>
-                  <p className="flex pt-2 text-[1rem]  2xl:text-[3rem] xl:text-[2.6rem] lg:text-[2.4rem] md:text-[2rem] sm:text-[1.5rem]  text-[#059f17]  ">
+                  <p className="flex pt-2 text-[0.8rem]    2xl:text-[2.5rem] xl:text-[2rem] lg:text-[1.7rem] md:text-[1.4rem] sm:text-[1.1rem]  text-[#059f17]  ">
                     <i class="fa-brands fa-html5 pr-2"></i>
                     <i class="fa-brands fa-css3-alt pr-2"></i>
                     <i class="fa-brands fa-bootstrap "></i>
@@ -63,44 +63,44 @@ const About = () => {
                   </p>
                 </h2>
 
-                <h2 className='flex text-[1rem] 2xl:text-[3rem] xl:text-[2.6rem] lg:text-[2.4rem] md:text-[2rem] sm:text-[1.5rem]  '>
+                <h2 className='flex text-[1rem]  2xl:text-[2.5rem] xl:text-[2rem] lg:text-[1.7rem] md:text-[1.4rem] sm:text-[1.1rem] '>
                   <span className="text-[#3000e9]"><i class="fa-solid fa-handshake"></i></span>
                   <span className="text-[#fff] pl-3 pr-4 ">Freelance:</span>
-                  <span className="flex  text-[1rem]  2xl:text-[3rem] xl:text-[2.6rem] lg:text-[2.4rem] md:text-[2rem] sm:text-[1.5rem]  text-[#4b4b4b] mt-1 ">
+                  <span className="flex  text-[0.8rem]    2xl:text-[2.5rem] xl:text-[2rem] lg:text-[1.7rem] md:text-[1.4rem] sm:text-[1.1rem]  text-[#4b4b4b] mt-1 ">
                     Available
                   </span>
                 </h2>
 
-                <h2 className='flex text-[1rem]  2xl:text-[3rem] xl:text-[2.6rem] lg:text-[2.4rem] md:text-[2rem] sm:text-[1.5rem] '>
+                <h2 className='flex text-[1rem]    2xl:text-[2.5rem] xl:text-[2rem] lg:text-[1.7rem] md:text-[1.4rem] sm:text-[1.1rem] '>
                   <span className="text-[#3000e9]"><i class="fa-solid fa-language"></i></span>
                   <span className="text-[#fff] pl-3 pr-4 "> Langages:</span>
-                  <span className="flex  text-[1rem] 2xl:text-[3rem] xl:text-[2.6rem] lg:text-[2.4rem] md:text-[2rem] sm:text-[1.5rem]  text-[#4b4b4b]  mt-1">
+                  <span className="flex  text-[0.8rem]   2xl:text-[2.5rem] xl:text-[2rem] lg:text-[1.7rem] md:text-[1.4rem] sm:text-[1.1rem] text-[#4b4b4b]  mt-1">
                     Hindi, English
                   </span>
                 </h2>
 
               </div>
               <div className=" ">
-                <h2 className='flex text-[1rem]  2xl:text-[3rem] xl:text-[2.6rem] lg:text-[2.4rem] md:text-[2rem] sm:text-[1.5rem] '>
+                <h2 className='flex text-[1rem]    2xl:text-[2.5rem] xl:text-[2rem] lg:text-[1.7rem] md:text-[1.4rem] sm:text-[1.1rem] '>
                   <span className="text-[#3000e9]"><i class="fa-solid fa-phone"></i></span>
                   <span className="text-[#fff] pl-3 pr-4 ">Phone:</span>
-                  <span className="flex  text-[1rem] 2xl:text-[3rem] xl:text-[2.6rem] lg:text-[2.4rem] md:text-[2rem] sm:text-[1.5rem]  text-[#4b4b4b]  mt-1">
+                  <span className="flex text-[0.8rem]    2xl:text-[2.5rem] xl:text-[2rem] lg:text-[1.7rem] md:text-[1.4rem] sm:text-[1.1rem] text-[#4b4b4b]  mt-1">
                     +91 6394311141
                   </span>
                 </h2>
 
-                <h2 className='flex text-[1rem]  2xl:text-[3rem] xl:text-[2.6rem] lg:text-[2.4rem] md:text-[2rem] sm:text-[1.5rem] '>
+                <h2 className='flex text-[1rem]   2xl:text-[2.5rem] xl:text-[2rem] lg:text-[1.7rem] md:text-[1.4rem] sm:text-[1.1rem] '>
                   <span className="text-[#3000e9]"><i class="fa-solid fa-envelope"></i></span>
                   <span className="text-[#fff] pl-3 pr-4 ">Email:</span>
-                  <span className="flex  text-[1rem] 2xl:text-[3rem] xl:text-[2.6rem] lg:text-[2.4rem] md:text-[2rem] sm:text-[1.5rem]  text-[#4b4b4b]  mt-1">
-                    webdevaryan@gmail.com
+                  <span className="flex  text-[0.8rem]   2xl:text-[2.5rem] xl:text-[2rem] lg:text-[1.7rem] md:text-[1.4rem] sm:text-[1.1rem] text-[#4b4b4b]  mt-1">
+                    aryanwebdevcontact@gmail.com
                   </span>
                 </h2>
 
-                <h2 className='flex text-[1rem]  2xl:text-[3rem] xl:text-[2.6rem] lg:text-[2.4rem] md:text-[2rem] sm:text-[1.5rem] '>
+                <h2 className='flex text-[1rem]  2xl:text-[2.5rem] xl:text-[2rem] lg:text-[1.7rem] md:text-[1.4rem] sm:text-[1.1rem] '>
                   <span className="text-[#3000e9]"><i class="fa-solid fa-location-dot"></i></span>
                   <span className="text-[#fff] pl-3 pr-4 ">Address:</span>
-                  <span className="flex  text-[1rem] 2xl:text-[3rem] xl:text-[2.6rem] lg:text-[2.4rem] md:text-[2rem] sm:text-[1.5rem]  text-[#4b4b4b]  mt-1">
+                  <span className="flex  text-[0.8rem]   2xl:text-[2.5rem] xl:text-[2rem] lg:text-[1.7rem] md:text-[1.4rem] sm:text-[1.1rem] text-[#4b4b4b]  mt-1">
                     India, UtterPradesh
                   </span>
                 </h2>
