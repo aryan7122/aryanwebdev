@@ -93,7 +93,7 @@ const About = () => {
                   <span className="text-[#3000e9]"><i class="fa-solid fa-envelope"></i></span>
                   <span className="text-[#fff] pl-3 pr-4 ">Email:</span>
                   <span className="flex  text-[1rem] 2xl:text-[3rem] xl:text-[2.6rem] lg:text-[2.4rem] md:text-[2rem] sm:text-[1.5rem]  text-[#4b4b4b]  mt-1">
-                    webdeveloperaryank@gmail.com
+                    webdevaryan@gmail.com
                   </span>
                 </h2>
 

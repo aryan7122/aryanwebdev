@@ -3,7 +3,7 @@ import React from 'react';
 const Projects = ({ title, language, image,linkgithub,live }) => {
   return (
     
-    <div className="border rounded-md overflow-hidden border-black w-auto h-fit m-4 over shadow-slate-600 shadow-md">
+    <div className=" rounded-md overflow-hidden border-black w-auto h-fit m-4 over shadow-slate-600 shadow-md">
       <div className='overflow-hidden'>
         <img src={image} alt="" className='hover:scale-110' />
       </div>

@@ -100,8 +100,8 @@ const Contact = () => {
     };
 
     return (
-        <div className="h-fit   bg-[#131313]  justify-center items-center ">
-            <h2 className="text-6xl pt-6 font-bold mb-6 text-white">Contact Me</h2>
+        <div className="h-[100vh]  bg-[#010101]  justify-center items-center ">
+            <h2 className="text-[2rem] pt-6 font-bold text-[#ccc]">Contact Me</h2>
             <div className="flex-none xl:flex">
                 {/* <div className=" flex items-center justify-center	 ">
                     <div className=" bg-[#1c1c1c]  p-6  m-12 w-[400px] shadow-lg ">
@@ -118,9 +118,9 @@ const Contact = () => {
                         {submitted && (
                                 <p className="text-green-300 mb-4 text-2xl ">Form submitted successfully!</p>
                         )}
-                        <div className='grid grid-cols-1 md:grid-cols-2 gap-5 p-10 '>
+                        <div className='grid grid-cols-1 md:grid-cols-2 gap-5 p-4 md:p-10'>
 
-                            <div className="mb-4">
+                            <div className="mb-4 ">
                                 <label htmlFor="name" className="block font-medium mb-1">
                                     {/* Name */}
                                 </label>
@@ -182,8 +182,8 @@ const Contact = () => {
                             </div>
                         </div>
 
-                        <div className="mb-4 p-8">
-                            <label htmlFor="message" className="block font-medium mb-1">
+                        <div className="mb-4 p-4 md:p-10">
+                            <label htmlFor="message" className="block font-medium">
                                 {/* Message */}
                             </label>
                             <textarea
@@ -200,7 +200,7 @@ const Contact = () => {
                         </div>
                         <button
                             type="submit"
-                            className="bg-[#3000e9] text-white py-6 mb-8  px-4 rounded hover:bg-blue-600 text-5xl"
+                            className="bg-[#3000e9] w-[150px] text-white py-6  rounded hover:bg-blue-600 "
                         >
                             Send Message
                         </button>
