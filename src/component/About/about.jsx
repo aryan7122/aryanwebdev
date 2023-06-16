@@ -35,18 +35,18 @@ const About = () => {
                 </span>
                 <div className="text-[#929292] text-[1rem] lg:text-[1.4rem] xl:text-[1.6rem] md:text-[1.2rem] sm:text-[1.1rem]">
                   <p className='pt-10 pr-4 lg:pr-10 xl:r-20'>I am a dedicated web developer specializing in frontend development. Currently pursuing my final year at Nehru Gram Bharati University in Prayagraj, Uttar Pradesh, I have actively worked on various web development projects. With expertise in HTML, CSS, and JavaScript.</p>
-                  <p className='pt-5 pr-4 lg:pr-10 xl:r-20'> I am committed to crafting visually stunning websites that provide seamless user experiences and optimal performance. Passionate and driven, I constantly strive to expand my knowledge and skills in this dynamic field.</p>
+                  <p className='pt-5 pr-4 lg:pr-10 xl:r-20 hidden sm:block'> I am committed to crafting visually stunning websites that provide seamless user experiences and optimal performance. Passionate and driven, I constantly strive to expand my knowledge and skills in this dynamic field.</p>
                 </div>
               </div>
 
             </div>
 
-            <div className="border ml-0 pl-0   md:ml-8 w-full p-7 mt-2 md:mt-6  grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 gap-4 sm:grid-cols-1 xl:grid-cols-2  md:relative sm:w-[100%]   h-[100px]  ">
+            <div className=" ml-0 pl-0    md:ml-8 w-full p-7 mt-2 md:mt-6  grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 gap-4 sm:grid-cols-1 xl:grid-cols-2  md:relative sm:w-[100%]   h-[100px]  ">
               <div className=" ">
-                <h2 className='flex text-[1.2rem] 2xl:text-[3rem] xl:text-[2.6rem] lg:text-[2.4rem] md:text-[2rem] sm:text-[1.5rem] '>
+                <h2 className='  flex text-[1.2rem] 2xl:text-[3rem] xl:text-[2.6rem] lg:text-[2.4rem] md:text-[2rem] sm:text-[1.5rem] '>
                   <span className="text-[#3000e9]"><i class="fa-solid fa-code"></i></span>
                   <span className="text-[#fff] pl-3 pr-4 ">Skills:</span>
-                  <span className="flex pt-2 text-[1.4rem]  2xl:text-[3rem] xl:text-[2.6rem] lg:text-[2.4rem] md:text-[2rem] sm:text-[1.5rem]  text-[#059f17]  ">
+                  <p className="flex pt-2 text-[1.4rem]  2xl:text-[3rem] xl:text-[2.6rem] lg:text-[2.4rem] md:text-[2rem] sm:text-[1.5rem]  text-[#059f17]  ">
                     <i class="fa-brands fa-html5 pr-2"></i>
                     <i class="fa-brands fa-css3-alt pr-2"></i>
                     <i class="fa-brands fa-bootstrap "></i>
@@ -60,7 +60,7 @@ const About = () => {
                       <SiGithub />
                       <ImGit className='ml-2' />
                     </span>
-                  </span>
+                  </p>
                 </h2>
 
                 <h2 className='flex text-[1.2rem] 2xl:text-[3rem] xl:text-[2.6rem] lg:text-[2.4rem] md:text-[2rem] sm:text-[1.5rem]  '>
@@ -101,7 +101,7 @@ const About = () => {
                   <span className="text-[#3000e9]"><i class="fa-solid fa-location-dot"></i></span>
                   <span className="text-[#fff] pl-3 pr-4 ">Address:</span>
                   <span className="flex  text-[1.2rem] 2xl:text-[3rem] xl:text-[2.6rem] lg:text-[2.4rem] md:text-[2rem] sm:text-[1.5rem]  text-[#4b4b4b]  mt-1">
-                    India, UtterPradesh, Pryagraj
+                    India, UtterPradesh
                   </span>
                 </h2>
               </div>
