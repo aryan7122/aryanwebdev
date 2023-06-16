@@ -11,12 +11,14 @@ function Navbar() {
       window.scrollTo({ top: 0, behavior: "smooth" });
     } else if (section === "about") {
       window.scrollTo({ top: window.innerHeight , behavior: "smooth" });
-    } else if (section === "skills") {
-      window.scrollTo({ top: window.innerHeight *2, behavior: "smooth" });
-    } else if (section === "projects") {
-      window.scrollTo({ top: window.innerHeight * 3, behavior: "smooth" });
+    }
+    // else if (section === "skills") {
+    //   window.scrollTo({ top: window.innerHeight *2, behavior: "smooth" });
+  // }
+     else if (section === "projects") {
+      window.scrollTo({ top: window.innerHeight * 2, behavior: "smooth" });
     } else if (section === "contact") {
-      window.scrollTo({ top: window.innerHeight * 4, behavior: "smooth" });
+      window.scrollTo({ top: window.innerHeight * 3, behavior: "smooth" });
     } 
   };
 
@@ -43,12 +45,12 @@ function Navbar() {
               Abut
             </span>
           </span>
-          <span className="a" href={{}} style={{ background: "#3000e9" }} onClick={() => menuItemClickHandler("skills")}>
+          {/* <span className="a" href={{}} style={{ background: "#3000e9" }} onClick={() => menuItemClickHandler("skills")}>
             <i class="fa-solid fa-rocket"></i>
             <span className="tooltip" style={{ color: "#131313" }}>
               Skills
             </span>
-          </span>
+          </span> */}
           <span className="a" href={{}} style={{ background: "#3000e9" }} onClick={() => menuItemClickHandler("projects")}>
             <i class="fa-solid fa-server"></i>
             <span className="tooltip" style={{ color: "#131313" }}>
