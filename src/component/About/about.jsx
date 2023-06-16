@@ -8,7 +8,7 @@ import { ImGit } from 'react-icons/im'
 
 const About = () => {
   return (
-    <div className=' w-[100%]  h-[100vh] bg-[#131313] '>
+    <div className=' w-[100%] min-h-[100vh] bg-[#010101] '>
       <div className='text-[#3000e9] text-[2.8rem] font-bold hover:underline'><h1>About Me</h1></div>
       <div className='text-[#ccc] text-[1.3rem]'><h3>Professional Profile - There Is All About Me</h3></div>
       <div className=" ">
