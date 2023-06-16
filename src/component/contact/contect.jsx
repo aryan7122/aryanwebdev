@@ -72,7 +72,7 @@ const Contact = () => {
             message: formData.message,
         };
 
-        fetch('https://formspree.io/f/xjvdnvor', {
+        fetch('https://formspree.io/f/xbjenkbr', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -110,13 +110,13 @@ const Contact = () => {
                         </p>
                     </div>
                 </div> */}
-                
+
                 <div className=" flex justify-end  w-full p-0 sm:p-6 md:p-10 lg:p-16 xl:pl-32  xl:pr-32 2xl:pl-44 2xl:pr-44">
 
 
                     <form className="w-full h-fit " onSubmit={handleSubmit}>
                         {submitted && (
-                                <p className="text-green-300 mb-4 text-2xl ">Form submitted successfully!</p>
+                            <p className="text-green-300 mb-4 text-2xl ">Form submitted successfully!</p>
                         )}
                         <div className='grid grid-cols-1 md:grid-cols-2 gap-5 p-4 md:p-10'>
 
