@@ -121,7 +121,7 @@ const Contact = () => {
                         <div className='grid grid-cols-1 md:grid-cols-2 gap-5 p-4 md:p-10'>
 
                             <div className="mb-4 ">
-                                <label htmlFor="name" className="block font-medium mb-1">
+                                <label htmlFor="name" className="block font-medium ">
                                     {/* Name */}
                                 </label>
                                 <input
@@ -136,7 +136,7 @@ const Contact = () => {
                                 {errors.name && <p className="text-red-500 text-sm mt-1">{errors.name}</p>}
                             </div>
                             <div className="mb-4">
-                                <label htmlFor="email" className="block font-medium mb-1">
+                                <label htmlFor="email" className="block font-medium ">
                                     {/* Email */}
                                 </label>
                                 <input
@@ -148,10 +148,10 @@ const Contact = () => {
                                     onChange={handleChange}
 
                                 />
-                                {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email}</p>}
+                                {errors.email && <p className="text-red-500 text-sm ">{errors.email}</p>}
                             </div>
                             <div className="mb-4">
-                                <label htmlFor="phone" className="block font-medium mb-1">
+                                <label htmlFor="phone" className="block font-medium ">
                                     {/* Phone Number */}
                                 </label>
                                 <input
@@ -163,10 +163,10 @@ const Contact = () => {
                                     onChange={handleChange}
 
                                 />
-                                {errors.phone && <p className="text-red-500 text-sm mt-1">{errors.phone}</p>}
+                                {errors.phone && <p className="text-red-500 text-sm ">{errors.phone}</p>}
                             </div>
-                            <div className="mb-4">
-                                <label htmlFor="subject" className="block font-medium mb-1">
+                            <div className="">
+                                <label htmlFor="subject" className="block font-medium ">
                                     {/* Subject */}
                                 </label>
                                 <input
@@ -178,7 +178,7 @@ const Contact = () => {
                                     onChange={handleChange}
 
                                 />
-                                {errors.subject && <p className="text-red-500 text-sm mt-1">{errors.subject}</p>}
+                                {errors.subject && <p className="text-red-500 text-sm ">{errors.subject}</p>}
                             </div>
                         </div>
 
@@ -196,7 +196,7 @@ const Contact = () => {
                                 //     } rounded`}
                                 rows={10}
                             ></textarea>
-                            {errors.message && <p className="text-red-500 text-sm mt-1">{errors.message}</p>}
+                            {errors.message && <p className="text-red-500 text-sm ">{errors.message}</p>}
                         </div>
                         <button
                             type="submit"

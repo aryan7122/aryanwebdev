@@ -35,7 +35,7 @@ textarea {
 }
 @media only screen and (max-width: 368px) {
     textarea{
-        height: 200px;
+        height: 170px;
     }
 }
 textarea:focus {
