@@ -31,10 +31,10 @@ const About = () => {
                 <span className='text-[1.3rem] '>
                   <span className='bottom-3   pr-3 '>I'm</span>
                   <span>Aryan Kushwaha</span>
-                <p className='w-[4%] h-1 bg-[#3000e9]'></p>
+                  <p className='w-[4%] h-1 bg-[#3000e9]'></p>
                 </span>
                 <div className="text-[#929292] text-[1rem] lg:text-[1.4rem] xl:text-[1.6rem] md:text-[1.2rem] sm:text-[1.1rem]">
-                  <p className='pt-10 pr-4 lg:pr-10 xl:r-20'>I am a dedicated web developer specializing in frontend development. Currently pursuing my final year at Nehru Gram Bharati University in Prayagraj, Uttar Pradesh, I have actively worked on various web development projects. With expertise in HTML, CSS, and JavaScript.</p>
+                  <p className='pt-10 pr-4 lg:pr-10 xl:r-20'>I am a dedicated web developer specializing in frontend development. Currently pursuing BCA final year at Nehru Gram Bharati University in Prayagraj, Uttar Pradesh, I have actively worked on various web development projects. With expertise in HTML, CSS, and JavaScript.</p>
                   <p className='pt-5 pr-4 lg:pr-10 xl:r-20 hidden sm:block'> I am committed to crafting visually stunning websites that provide seamless user experiences and optimal performance. Passionate and driven, I constantly strive to expand my knowledge and skills in this dynamic field.</p>
                 </div>
               </div>
