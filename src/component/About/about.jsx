@@ -10,7 +10,7 @@ const About = () => {
   return (
     <div className=' w-[100%] min-h-[100vh] bg-[#010101] '>
       <div className='text-[#3000e9] text-[2.8rem] font-bold hover:underline'><h1>About Me</h1></div>
-      <div className='text-[#ccc] text-[1.3rem]'><h3>Professional Profile - There Is All About Me</h3></div>
+      <div className='text-[#ccc] text-[1rem] sm:text-[1.3rem] lg:text-[1.5rem] '><h3>Professional Profile - There Is All About Me</h3></div>
       <div className=" ">
         <div className=" p-0  m-0 sm:p-6 md:p-10 lg:p-20 xl:p-32  md:flex justify-center">
 
