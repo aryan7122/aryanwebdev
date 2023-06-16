@@ -73,7 +73,7 @@ const About = () => {
 
                 <h2 className='flex text-[1rem]  2xl:text-[3rem] xl:text-[2.6rem] lg:text-[2.4rem] md:text-[2rem] sm:text-[1.5rem] '>
                   <span className="text-[#3000e9]"><i class="fa-solid fa-language"></i></span>
-                  <span className="text-[#fff] pl-3 pr-4 ">Spoken Langages:</span>
+                  <span className="text-[#fff] pl-3 pr-4 "> Langages:</span>
                   <span className="flex  text-[1rem] 2xl:text-[3rem] xl:text-[2.6rem] lg:text-[2.4rem] md:text-[2rem] sm:text-[1.5rem]  text-[#4b4b4b]  mt-1">
                     Hindi, English
                   </span>
