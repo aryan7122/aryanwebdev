@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../../img/homee/about.jpg'
+import img from '../../img/homee/aboutaryan.jpg'
 import { SiTailwindcss } from 'react-icons/si'
 import { SiExpress } from 'react-icons/si'
 import { SiMongodb } from 'react-icons/si'
@@ -22,7 +22,7 @@ const About = () => {
               {/* <div className="  cursor-pointer p-4 w-[300px] h-[300px] "> */}
               <div className="  ">
                 <img src={img} alt=""
-                  className=' relative border-[#000] border-[3px] rounded-lg w-[100%]  hidden md:block' />
+                  className=' relative w-[70%] border-[#262626] border-[2px] rounded-lg  hidden md:block' />
               </div>
               {/* <div className="border-[0.1px] border-[#3c3c3c] p-32 pt-64 ">      </div> */}
               {/* </div> */}
