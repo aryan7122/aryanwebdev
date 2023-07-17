@@ -3,7 +3,7 @@ import './style.css'
 // import { MDBBtn, MDBContainer } from 'mdb-react-ui-kit';
 import Typewriter from "typewriter-effect";
 // import img from '../../img/homee/imgg.png'
-import Resume from '../../img/AryanKushwaha.pdf'
+import Resume from '../../img/aryanCV.pdf'
 
 const Home = () => {
     let urlgit = 'https://github.com/aryan7122';
