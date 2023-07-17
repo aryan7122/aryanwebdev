@@ -39,7 +39,7 @@ const Home = () => {
                     <span className='h1 p-4 text-white  text-[1.5rem] sm:text-[2rem] xl:text-[5rem] lg:text-[4rem]  md:text-[3.rem]'>
                         <Typewriter 
                             options={{
-                                strings: ['React JS', 'JavaScript', 'Front End  Developer'],
+                                strings: ['React JS', 'JavaScript', 'Front End Web Developer'],
                                 autoStart: true,
                                 loop: true,
                             }}
