@@ -1,11 +1,12 @@
 .body3 {
-    background-image: url('../../img/homee/about.jpg');
+    background-image: url('../../img/homee/14649137_SL_0210121_40570_75.jpg');
     /* height: 100vh; */
     height: 100vh;
     z-index: 0;
-    width: 100vh;
+    width: 100%;
     /* padding: 181px; */
     background-size:cover;
+    /* border: 1px solid red; */
     background-repeat: no-repeat;
     /* position:absolute; */
  }

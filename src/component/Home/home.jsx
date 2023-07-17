@@ -18,10 +18,10 @@ const Home = () => {
     };
 
     return (
-        <div className='  w-[100%] min-h-[100vh] bg-[#060606] ' >
+        <div className='   w-[100%] min-h-[100vh] body3' >
             <div className="  z-[0] h-[100vh]  w-[100%]  ">
                 
-                <div className=' absolute  z-[2]  text-start leading-relaxed  m-4  mt-[25%] sm:mt-[35%] md:mt-[30%] lg:mt-[20%] xl:mt-[10%]  ml-4 sm:ml-8 md:ml-12 lg:ml-24 xl:ml-28 2xl:ml-36' >
+                <div className='  absolute  z-[2]  text-start leading-relaxed  m-4  mt-[25%] sm:mt-[35%] md:mt-[30%] lg:mt-[20%] xl:mt-[10%]  ml-4 sm:ml-8 md:ml-12 lg:ml-24 xl:ml-28 2xl:ml-36' >
                     <span class="absolute  flex h-44 w-44 z-0">
                         <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#ccc] opacity-20 "></span>
                         {/* <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span> */}
@@ -39,7 +39,7 @@ const Home = () => {
                     <span className='h1 p-4 text-white  text-[1.5rem] sm:text-[2rem] xl:text-[5rem] lg:text-[4rem]  md:text-[3.rem]'>
                         <Typewriter 
                             options={{
-                                strings: ['UI/UX Desiner', 'Web Developer'],
+                                strings: ['React JS', 'JavaScript', 'Front End  Developer'],
                                 autoStart: true,
                                 loop: true,
                             }}
@@ -86,13 +86,12 @@ const Home = () => {
                         </div>
                     </span>
                 </div>
-                <div className="flex  z-0 justify-end " >
-                    {/* <img src={img} alt="" className='' /> */}
+                {/* <div className="flex  z-0 justify-end " >
                     <div className='body3'>
 
                     </div>
 
-                </div>
+                </div> */}
             </div>
         </div>
     )
