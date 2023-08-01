@@ -118,7 +118,7 @@ const Contact = () => {
                         {submitted && (
                             <p className="text-green-300 mb-4 text-2xl ">Form submitted successfully!</p>
                         )}
-                        <div className='grid grid-cols-1 md:grid-cols-2 gap-5 p-4 md:p-10'>
+                        <div className='grid grid-cols-1 md:grid-cols-2 p-4 md:p-10'>
 
                             <div className="mb-4 ">
                                 <label htmlFor="name" className="block font-medium ">
